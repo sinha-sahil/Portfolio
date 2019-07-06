@@ -1,5 +1,5 @@
 <mat-list>
-  <img src="https://static.giantbomb.com/uploads/scale_small/0/1992/3075723-screen%20shot%202019-01-16%20at%2010.21.01%20pm.png"
+  <img src="https://media.licdn.com/dms/image/C5103AQHacDtkCImCsg/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=BieM13kRKdaSNkU6vtByUOm_cIl4Elp7tMp8kuN5ZzM"
     style = "width: 75%; height: 75%; border-radius: 8px; margin: auto; display: block "
   >
 
@@ -11,12 +11,12 @@
 </mat-list>
 
 <mat-nav-list>
-  <mat-list-item>Experience</mat-list-item>
-  <mat-list-item>Skill</mat-list-item>
-  <mat-list-item>Education</mat-list-item>
-  <mat-list-item>Projects</mat-list-item>
-  <mat-list-item>Achievements</mat-list-item>
-  <mat-list-item>Personal Profile</mat-list-item>
+  <mat-list-item routerLink="/experience" [@optionSelectAnimation] = 'select'>Experience</mat-list-item>
+  <mat-list-item routerLink="/skills">Skill</mat-list-item>
+  <mat-list-item routerLink="/education">Education</mat-list-item>
+  <mat-list-item routerLink="/projects">Projects</mat-list-item>
+  <mat-list-item routerLink="/achievements">Achievements</mat-list-item>
+  <mat-list-item routerLink="/personalProfile">Personal Profile</mat-list-item>
 </mat-nav-list>
 
 <mat-list>
